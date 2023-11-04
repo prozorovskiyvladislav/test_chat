@@ -1,0 +1,16 @@
+.choose-room {
+  &_wrapper {
+    background-color: lightgray;
+    height: 100vh;
+  }
+  &_window {
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+      padding: 12px;
+    }
+  }
+}

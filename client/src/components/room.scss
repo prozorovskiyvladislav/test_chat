@@ -1,0 +1,14 @@
+.room {
+  &_wrapper {
+    background-color: white;
+    border: 1px solid gray;
+    margin: 12px;
+    max-width: 280px;
+    padding: 16px;
+    width: 100%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

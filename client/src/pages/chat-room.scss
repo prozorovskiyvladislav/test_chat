@@ -1,0 +1,26 @@
+.chat-room {
+  &_wrapper {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  &_window {
+    flex: 1;
+    background: lightgray;
+    &__title {
+      padding: 16px;
+    }
+    &__description {
+      padding: 16px;
+    }
+  }
+  &_form {
+    display: grid;
+    grid-template-columns: 30% 60% 1fr;
+    width: 100%;
+  }
+  &_error {
+    color: red;
+  }
+}
