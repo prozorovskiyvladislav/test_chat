@@ -11,7 +11,7 @@ const clients = new Set();
 const rooms = ['General Chat', 'Social Hangout', 'Discussion Zone', 'Chatter\'s Corner', 'Chat Café' ];
 
 const messageHistory = [];
-const LAST_MESSAGES_NUMBER = 10;
+const LAST_MESSAGES_NUMBER = -10;
 const MESSAGE_DATA_TYPES = {
     JOIN: 'join',
     INITIAL: 'initial',

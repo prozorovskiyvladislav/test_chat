@@ -1,6 +1,8 @@
+@import "../styles/variables";
+
 .choose-room {
   &_wrapper {
-    background-color: lightgray;
+    background-color: $secondary-color;
     height: 100vh;
   }
   &_window {
@@ -11,6 +13,9 @@
     align-items: center;
     &__title {
       padding: 12px;
+      color: $text-color;
+      font-size: 32px;
+      font-weight: 600;
     }
   }
 }

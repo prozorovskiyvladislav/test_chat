@@ -1,18 +1,22 @@
+@import "../styles/variables";
+
 .chat-room {
   &_wrapper {
-    border: 1px solid gray;
+    border: 1px solid $border-color;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
   &_window {
     flex: 1;
-    background: lightgray;
+    background: $secondary-color;
     &__title {
       padding: 16px;
+      color: $text-color;
     }
     &__description {
       padding: 16px;
+      color: $text-color;
     }
   }
   &_form {
@@ -21,6 +25,6 @@
     width: 100%;
   }
   &_error {
-    color: red;
+    color: $error-color;
   }
 }

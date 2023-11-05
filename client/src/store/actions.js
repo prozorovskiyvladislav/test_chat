@@ -1,4 +1,3 @@
-// actions.js
 export const setWebSocket = (socket) => ({
     type: 'SET_WEBSOCKET',
     payload: socket,

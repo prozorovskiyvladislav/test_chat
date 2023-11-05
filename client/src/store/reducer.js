@@ -19,7 +19,7 @@ const chatReducer = (state = initialState, action) => {
             if (action.payload.type === 'chat') {
                 return { ...state, messages: [...state.messages, action.payload] };
             }
-            return state; // For unhandled message types
+            return state;
         default:
             return state;
     }

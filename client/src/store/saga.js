@@ -23,7 +23,6 @@ function createWebSocketChannel(socket) {
         socket.addEventListener('close', onClose);
 
         return () => {
-            // Cleanup code here if necessary
             socket.removeEventListener('message', onMessage);
             socket.removeEventListener('open', onOpen);
             socket.removeEventListener('close', onClose);

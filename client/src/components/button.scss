@@ -1,7 +1,9 @@
+@import "../styles/variables";
+
 .button {
-  background-color: #3c59ff;
-  color: white;
-  border: 1px solid gray;
+  background-color: $primary-color;
+  color: $background-color;
+  border: 1px solid $border-color;
   height: 32px;
   &:hover {
     cursor: pointer;

@@ -17,7 +17,6 @@ const ChatRoom = ({ messages, sendMessage, socket }) => {
             navigate('/')
         }
     }, []);
-    console.log(messages)
 
     const handleSendMessage = (e) => {
         e.preventDefault();
